@@ -8,7 +8,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false, title: 'PRAG', home: MyHomePage());
+        debugShowCheckedModeBanner: false,
+        title: 'PRAG WEBSITE',
+        home: MyHomePage());
   }
 }
 
@@ -25,7 +27,7 @@ class MyHomePage extends StatelessWidget {
           leading: Image.asset('assets/prag.png'),
           titleSpacing: 2,
           title: Text(
-            'PRAG',
+            'PRAG WEBSITE',
             style: TextStyle(
               fontFamily: 'Audiowide',
               fontSize: 40,
